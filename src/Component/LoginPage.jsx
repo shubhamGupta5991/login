@@ -28,11 +28,11 @@ const LoginPage = () => {
                     <p>{error}</p>
             <div>
             <label htmlFor="name">Username:</label>
-            <input type="text" placeholder='Username' id='name' required value={userName} onChange={(e)=>setUserName(e.target.value)}/>
+            <input type="text" placeholder='username' id='name' required value={userName} onChange={(e)=>setUserName(e.target.value)}/>
             </div>
             <div>
             <label htmlFor="password">Password:</label>
-            <input type="password"  id='password' placeholder='Password' required value={password} onChange={(e)=>setPassword(e.target.value)}/>
+            <input type="password"  id='password' placeholder='password' required value={password} onChange={(e)=>setPassword(e.target.value)}/>
             </div>
             <button type='submit'>Submit</button>
            
