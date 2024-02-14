@@ -22,7 +22,7 @@ const LoginPage = () => {
     <div>
         <h1>Login Page</h1>
         {
-            visible?(<p>Welcome,{userName}!</p>):(
+            visible?(<p>Welcome, {userName}!</p>):(
                 
                 <form onSubmit={handleSubmit}>
                     <p>{error}</p>
